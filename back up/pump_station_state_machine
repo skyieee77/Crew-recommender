@@ -1,0 +1,7 @@
+// Pump Station State Machine
+digraph {
+	Small [label=Small]
+	Large [label=Large]
+	Small -> Large [label="2 weeks"]
+	Large -> Small [label="2 weeks"]
+}
